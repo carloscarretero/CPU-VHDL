@@ -12,7 +12,7 @@ Mini unidad de procesamiento realizada en VHDL implementada sobre una placa FPGA
 
 El esquema de funcionamiento de la CPU es el siguiente.
 <p align="center">
-  <img src="ttps://github.com/carloscarretero/CPU-VHDL/blob/master/img/cpu-seq.PNG" />
+  <img src="https://github.com/carloscarretero/CPU-VHDL/blob/master/img/cpu-seq.PNG" />
 </p>
 
 La arquitectura física de la cpu es la siguiente
