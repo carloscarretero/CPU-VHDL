@@ -1,0 +1,38 @@
+#############################################################
+## User constraits file for CompRegReag architecture
+## implementation:
+## 	NET [output] 	LOC = [resource name]; # Resource type
+#############################################################
+
+
+NET "CLK"				LOC = "B8"; 	# Clock 50MHz 
+
+NET "Push"				LOC = "A7";		# BTN3
+NET "RESET"				LOC = "G12";	# BTN0
+
+NET "Instruction<6>"		LOC = "P4"; # LD6
+NET "Instruction<5>"		LOC = "N4"; # LD5
+NET "Instruction<4>"		LOC = "N5"; # LD4
+NET "Instruction<3>"		LOC = "P6"; # LD3
+NET "Instruction<2>"		LOC = "P7"; # LD2
+NET "Instruction<1>"		LOC = "M11";# LD1
+NET "Instruction<0>"		LOC = "M5"; # LD0
+
+# Display de 7 segmentos
+NET "Catodo<6>" 		LOC = "L14"; 	# CA
+NET "Catodo<5>" 		LOC = "H12";	# CB
+NET "Catodo<4>" 		LOC = "N14";	# CC
+NET "Catodo<3>"		LOC = "N11";	# CD
+NET "Catodo<2>" 		LOC = "P12";	# CE
+NET "Catodo<1>" 		LOC = "L13";	# CF
+NET "Catodo<0>" 		LOC = "M12";	# CG
+
+NET "Anodo<3>" 		LOC = "K14";	# AN3
+NET "Anodo<2>" 		LOC = "M13";	# AN2
+NET "Anodo<1>" 		LOC = "J12";	# AN1
+NET "Anodo<0>" 		LOC = "F12";	# AN0
+
+NET "SalCOP<2>"		LOC = "B5";		# LED JA
+NET "SalCOP<1>"		LOC = "B7";		# LED JB
+NET "SalCOP<0>"		LOC = "C9";		# LED JC
+NET "SalFZ" 			LOC = "D12"; 	# LED JD
